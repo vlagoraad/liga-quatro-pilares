@@ -14,8 +14,10 @@ public abstract class Personagem{
         this.sexo = sexo;
         this.altura = altura;
     }
-    
+
     public abstract String apresentar();
+
+    public abstract void agir();
 
     public float getAltura() {
         return altura;
@@ -31,11 +33,16 @@ public abstract class Personagem{
     public void setSexo(Sexo sexo) {
         this.sexo = sexo;
     }
-        
+
     public void setNome(String nome) {
         this.nome = nome;
     }
     public void setAltura(float altura) {
         this.altura = altura;
     }
+    @Override
+    public String toString() {
+        return apresentar();
+    }
 }
+

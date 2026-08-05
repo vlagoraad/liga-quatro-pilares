@@ -17,8 +17,13 @@ public class Civil extends Personagem {
     @Override
     public String apresentar() {
         return "Civil: " + getNome()
-             + " | Sexo: " + getSexo().getdescription()
-             + " | Altura: " + getAltura()
-             + " | Profissão: " + profissao;
+                + " | Sexo: " + getSexo().getdescription()
+                + " | Altura: " + getAltura()
+                + " | Profissão: " + profissao;
     }
-}
+
+    @Override
+    public void agir() {
+        System.out.println(getNome() + " pede socorro!");
+    }}
+
