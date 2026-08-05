@@ -62,6 +62,10 @@ public class SuperHeroi extends Personagem {
             System.out.println("Habilidade '" + nome + "' não encontrada.");
         }
     }
+    
+    public void adicionarHabilidade(String habilidade) {
+    this.habilidades.add(habilidade);
+}
 
 
 

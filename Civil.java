@@ -26,4 +26,3 @@ public class Civil extends Personagem {
     public void agir() {
         System.out.println(getNome() + " pede socorro!");
     }}
-

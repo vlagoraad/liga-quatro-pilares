@@ -45,4 +45,3 @@ public abstract class Personagem{
         return apresentar();
     }
 }
-

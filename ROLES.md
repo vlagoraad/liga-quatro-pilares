@@ -1,3 +1,3 @@
-Arquiteto = Amanda
-Piloto = Valentina
-Revisor = Talles 
+Arquiteto = Valentina
+Piloto = Talles
+Revisor = Amanda 
