@@ -18,8 +18,12 @@ public class SuperHeroi extends Personagem {
         }
     }
     
-    @Override public String apresentar(){
-      return  "Apresentando";
+    @Override
+    public String apresentar() {
+        return "Herói: " + getIdentidade()
+         + " | Sexo: " + getSexo().getdescription()
+         + " | Altura: " + getAltura()
+         + " | Habilidades: " + getHabilidades();
     }
 
     public String getIdentidade(){
